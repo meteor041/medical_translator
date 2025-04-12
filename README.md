@@ -1,4 +1,4 @@
-# 医药信息翻译器 (Medic Translator)
+# 医药信息翻译器 (Medical Translator)
 
 本项目包含一个 Python 脚本，用于读取包含医药信息的 Excel 文件 (`.xlsx`)，利用 OpenRouter API 将指定的英文列（药品名称、药瓶类型、药品描述）翻译成中文，并将翻译结果保存到一个新的 CSV 文件中。
 
@@ -23,7 +23,7 @@
     *   如果您使用 Git，请克隆仓库：
         ```bash
         git clone <repository_url>
-        cd medic_translator
+        cd medical_translator
         ```
     *   或者，直接下载项目文件 (`translate_medicine.py`, `requirements.txt`, `.env.example`, `Medicine_description.xlsx`) 到一个目录中。
 
