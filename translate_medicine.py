@@ -10,7 +10,7 @@ import re
 # --- 配置 ---
 load_dotenv()  # 加载 .env 文件中的环境变量
 INPUT_FILENAME = "example.xlsx"
-OUTPUT_FILENAME = "medical_info_translated2.csv"
+OUTPUT_FILENAME = "medical_info_translated.csv"
 # 从 COMMAND.md 假设的列名，如果实际文件不同，需要修改这里
 ENGLISH_NAME_COL = "Drug_Name"
 ENGLISH_TYPE_COL = "Reason"
